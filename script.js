@@ -12,15 +12,14 @@ import {
 // WAŻNE: tutaj trzeba wkleić konfigurację z Firebase.
 // Instrukcja jest w pliku README.md.
 const firebaseConfig = {
-  apiKey: "WKLEJ_TUTAJ_API_KEY",
-  authDomain: "WKLEJ_TUTAJ_AUTH_DOMAIN",
-  databaseURL: "WKLEJ_TUTAJ_DATABASE_URL",
-  projectId: "WKLEJ_TUTAJ_PROJECT_ID",
-  storageBucket: "WKLEJ_TUTAJ_STORAGE_BUCKET",
-  messagingSenderId: "WKLEJ_TUTAJ_MESSAGING_SENDER_ID",
-  appId: "WKLEJ_TUTAJ_APP_ID"
+  apiKey: "AIzaSyAXY8hMxa4RLF8osMgHz-GVGjo0aHeO8OY",
+  authDomain: "moja-biblioteka-77442.firebaseapp.com",
+  databaseURL: "https://moja-biblioteka-77442-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "moja-biblioteka-77442",
+  storageBucket: "moja-biblioteka-77442.firebasestorage.app",
+  messagingSenderId: "946425855983",
+  appId: "1:946425855983:web:dead877b02db378a29c01a"
 };
-
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const booksRef = ref(database, "books");
