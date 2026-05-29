@@ -28,7 +28,3 @@ To jest pierwszy etap prostej aplikacji webowej inspirowanej serwisami książko
 Otwórz plik `index.html` w przeglądarce.
 
 Ważne: pliki `index.html`, `style.css` i `app.js` muszą znajdować się w tym samym folderze.
-
-## Plan na następny etap
-
-W drugim etapie localStorage zostanie zastąpione prawdziwą bazą danych Supabase.
